@@ -8,7 +8,7 @@ streamlit = "*"
 geemap = "*"
 earthengine-api = "*"
 geobr = "*"
-fiona = "1.8.21"
+fiona = "*"
 leafmap = "*"
 
 [dev-packages]

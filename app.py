@@ -126,8 +126,8 @@ with col2:
     )
 
 
-mbyr_2010 = mapbiomas.select("classification_2010")
-mbyr_2020 = mapbiomas.select("classification_2020")
+mbyr_antes = mapbiomas.select(f"classification_{antes}")
+mbyr_depois = mapbiomas.select(f"classification_{depois}")
 
 # Legenda
 
@@ -244,10 +244,10 @@ legend_dict.pop(" ")
 
 # Mapa
 left_layer = geemap.ee_tile_layer(
-    mbyr_2010, {"min": 0, "max": 49, "palette": legend_colors}, name="Lages 2010"
+    mbyr_antes, {"min": 0, "max": 49, "palette": legend_colors}, name=f"Lages {antes}"
 )
 right_layer = geemap.ee_tile_layer(
-    mbyr_2020, {"min": 0, "max": 49, "palette": legend_colors}, name="Lages 2022"
+    mbyr_depois, {"min": 0, "max": 49, "palette": legend_colors}, name=f"Lages {depois}"
 )
 
 Map.split_map(left_layer, right_layer)

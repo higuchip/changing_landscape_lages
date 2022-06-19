@@ -57,6 +57,7 @@ st.subheader("Escolha o período de interesse:")
 col1, col2 = st.columns(2)
 
 with col1:
+    st.markdown("### Antes")
     antes = st.selectbox(
         "Escolha o primeiro ano",
         [
@@ -89,9 +90,9 @@ with col1:
         ],
     )
 
-    st.markdown("### Antes", antes)
 
 with col2:
+    st.markdown("### Depois")
     depois = st.selectbox(
         "Escolha o segundo ano",
         [
@@ -123,8 +124,6 @@ with col2:
             2020,
         ],
     )
-
-    st.markdown("### Depois:", depois)
 
 
 mbyr_2010 = mapbiomas.select("classification_2010")

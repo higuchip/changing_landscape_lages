@@ -57,7 +57,7 @@ st.subheader("Escolha o período de interesse:")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("### Antes")
+    st.markdown("#### Antes")
     antes = st.selectbox(
         "Escolha o primeiro ano",
         [
@@ -92,7 +92,7 @@ with col1:
 
 
 with col2:
-    st.markdown("### Depois")
+    st.markdown("#### Depois")
     depois = st.selectbox(
         "Escolha o segundo ano",
         [

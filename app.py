@@ -21,7 +21,7 @@ st.markdown("___")
 
 ###########################
 # Autenticar e Inicializar EE
-# ee.Authenticate()
+ee.Authenticate()
 ee.Initialize()
 
 #  Seleção da área de interesse (Município de Lages)

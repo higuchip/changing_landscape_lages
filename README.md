@@ -2,6 +2,7 @@
 <br>
 Aplicação do MapBiomas para a visualização de mudanças na cobertura e uso do solo. <br>
 <br>
+
 __Referências__: <br>
 Souza at. al. (2020) - Reconstructing Three Decades of Land Use and Land Cover Changes in Brazilian Biomes with Landsat Archive and Earth Engine - Remote Sensing, Volume 12, Issue 17, 10.3390/rs12172735. <br>
 

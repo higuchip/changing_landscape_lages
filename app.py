@@ -10,7 +10,7 @@ import geemap.foliumap as geemap
 collections.Callable = collections.abc.Callable
 
 
-original_title = '<h1 style="color:Blue"> Uma década (2010-2020) de mudanças na paisagem de Lages, SC </h1>'
+original_title = '<h1 style="color:Blue"> Mudanças na ocupação territorial de Lages no período de 1985 a 2020  </h1>'
 st.markdown(original_title, unsafe_allow_html=True)
 subtitle = "<h3> Aplicação do MapBiomas para a visualização de mudanças na cobertura e uso do solo</h3>"
 st.markdown(subtitle, unsafe_allow_html=True)

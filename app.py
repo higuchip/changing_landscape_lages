@@ -51,39 +51,78 @@ mapbiomas = ee.Image(
 ).clip(roi_lages)
 
 # Seleção de anos
+col1, col2 = st.columns(2)
 
-antes = st.selectbox(
-    "How would you like to be contacted?",
-    [
-        1985,
-        1986,
-        1987,
-        1988,
-        1989,
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        2005,
-        2006,
-        2007,
-        2008,
-        2009,
-        2010,
-        2011,
-        2012,
-        2013,
-        2014,
-        2015,
-        2016,
-        2017,
-        2018,
-        2019,
-        2020,
-    ],
-)
-st.write("You selected:", antes)
+with col1:
+    antes = st.selectbox(
+        "Escolha o primeiro ano",
+        [
+            1985,
+            1986,
+            1987,
+            1988,
+            1989,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+        ],
+    )
+
+    st.write("Você selecionou:", antes)
+
+with col2:
+    depois = st.selectbox(
+        "Escolha o segundo ano",
+        [
+            1985,
+            1986,
+            1987,
+            1988,
+            1989,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+        ],
+    )
+
+    st.write("Você selecionou:", depois)
+
 
 mbyr_2010 = mapbiomas.select("classification_2010")
 mbyr_2020 = mapbiomas.select("classification_2020")

@@ -20,9 +20,15 @@ st.caption(
 st.markdown("___")
 
 ###########################
+
+
+Map = geemap.Map()
+Map.add_basemap("SATELLITE")
+Map.to_streamlit(height=600)
+
 # Autenticar e Inicializar EE
+# ee.Initialize()
 # ee.Authenticate()
-ee.Initialize()
 
 #  Seleção da área de interesse (Município de Lages)
 

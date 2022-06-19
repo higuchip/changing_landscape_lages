@@ -1,6 +1,7 @@
 # Uma década (2010-2020) de mudanças na paisagem de Lages, SC
+<br>
 Aplicação do MapBiomas para a visualização de mudanças na cobertura e uso do solo. <br>
-__Referências__:
+__Referências__: <br>
 Souza at. al. (2020) - Reconstructing Three Decades of Land Use and Land Cover Changes in Brazilian Biomes with Landsat Archive and Earth Engine - Remote Sensing, Volume 12, Issue 17, 10.3390/rs12172735. <br>
 
 Wu, Q., (2020). geemap: A Python package for interactive mapping with Google Earth Engine. The Journal of Open Source Software, 5(51), 2305. https://doi.org/10.21105/joss.02305 <br>

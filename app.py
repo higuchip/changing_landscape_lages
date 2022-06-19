@@ -23,11 +23,8 @@ st.markdown("___")
 
 
 Map = geemap.Map()
+Map.add_basemap("SATELLITE")
 
-
-# Autenticar e Inicializar EE
-# ee.Initialize()
-# ee.Authenticate()
 
 #  Seleção da área de interesse (Município de Lages)
 
@@ -179,7 +176,6 @@ right_layer = geemap.ee_tile_layer(
     mbyr_2020, {"min": 0, "max": 49, "palette": legend_colors}, name="Lages 2022"
 )
 
-Map.add_basemap("SATELLITE")
 Map.split_map(left_layer, right_layer)
 Map.add_legend(legend_title="Classes", legend_dict=legend_dict)
 Map.centerObject(roi_lages, zoom=10)

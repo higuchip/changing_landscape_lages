@@ -52,7 +52,7 @@ mapbiomas = ee.Image(
 
 # Seleção de anos
 
-antes = st.slider('Selecione o antes?', [1985:2020])
+antes = st.slider('Selecione o antes?', 1985:2020)
 st.write("You selected:", antes)
 
 mbyr_2010 = mapbiomas.select("classification_2010")

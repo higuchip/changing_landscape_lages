@@ -50,7 +50,10 @@ mapbiomas = ee.Image(
     "projects/mapbiomas-workspace/public/collection6/mapbiomas_collection60_integration_v1"
 ).clip(roi_lages)
 
+
+st.subheader("Escolha o período de interesse:")
 # Seleção de anos
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -86,7 +89,7 @@ with col1:
         ],
     )
 
-    st.write("Você selecionou:", antes)
+    st.markdown("### Antes", antes)
 
 with col2:
     depois = st.selectbox(
@@ -121,7 +124,7 @@ with col2:
         ],
     )
 
-    st.write("Você selecionou:", depois)
+    st.markdown("### Depois:", depois)
 
 
 mbyr_2010 = mapbiomas.select("classification_2010")

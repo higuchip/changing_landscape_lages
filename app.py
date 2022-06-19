@@ -17,6 +17,7 @@ st.markdown(subtitle, unsafe_allow_html=True)
 st.caption(
     "Powered by  MapBiomas, Google Earth Engine and Python | Developed by Pedro Higuchi ([@pe_hi](https://twitter.com/pe_hi))"
 )
+st.caption("Contato: higuchip@gmail.com")
 st.markdown("___")
 
 ###########################

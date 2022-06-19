@@ -9,6 +9,7 @@ geemap = "*"
 earthengine-api = "*"
 geobr = "*"
 fiona = "1.8.21"
+leafmap = "*"
 
 [dev-packages]
 

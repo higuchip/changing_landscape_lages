@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "bd7c1a8c444f08538d45ddf7be2be6b2c1777a36f397383e62d4b535e776276a"
+            "sha256": "ae7576c4a8b7057248925d6e5880e1807092abdf648f5eddb535ab35358c122d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -372,6 +372,7 @@
                 "sha256:e8854f3d66436f21eb1eb18ffe51c1ed47c931f859118073b22592347f48faa5",
                 "sha256:eecc67f0b1b492979e525f6d9f4f2ef6284beb5f506164cf4b202050a50d748d"
             ],
+            "index": "pypi",
             "version": "==1.7.13"
         },
         "folium": {
@@ -635,6 +636,14 @@
             ],
             "version": "==0.16.0"
         },
+        "ipysheet": {
+            "hashes": [
+                "sha256:714804a9e6e7e413ef8e74fce026587239a853c3912060c2fcf5f8dce0b7db6c",
+                "sha256:d9b3827f163177e7c293e7f7d3eaf1bbc6984e75cacee3c1a763971f110c076a"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.5.0"
+        },
         "ipython": {
             "hashes": [
                 "sha256:7ca74052a38fa25fe9bedf52da0be7d3fdd2fb027c3b778ea78dfe8c212937d1",
@@ -806,6 +815,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==1.4.3"
+        },
+        "leafmap": {
+            "hashes": [
+                "sha256:80c09a9d6aa85e3aca30c093552962d985e97e923e5aef1c8043a80f84b859da",
+                "sha256:d3c2044075d01a7214dbd517087e0fb00549f49dd220814ec34fcb5239bc2d5e"
+            ],
+            "index": "pypi",
+            "version": "==0.9.4"
         },
         "logzero": {
             "hashes": [
@@ -1411,6 +1428,22 @@
                 "sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0"
             ],
             "version": "==1.7.1"
+        },
+        "pystac": {
+            "hashes": [
+                "sha256:6ec43e1c6bec50fbfbdede49c3ccb83ecd112072a938001b5c9c581fc2945e83",
+                "sha256:7f4563ff7cad512fe687ceb0b09905e15934712ac936d51766b090600580abdd"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==1.4.0"
+        },
+        "pystac-client": {
+            "hashes": [
+                "sha256:3c88c9f0473b29cec463ed9fd7b963f3c428efbea678a3804978b38dc9745ed0",
+                "sha256:8e014f669a88d55c7902a9c1a839048ee87939576060b2d3cc9f6d17cf879056"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.4.0"
         },
         "python-box": {
             "hashes": [

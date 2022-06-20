@@ -18,6 +18,7 @@ st.caption(
     "Powered by  MapBiomas, Google Earth Engine and Python | Developed by Pedro Higuchi ([@pe_hi](https://twitter.com/pe_hi))"
 )
 st.caption("Contato: higuchip@gmail.com")
+st.warning("Atenção: Desenvolvimento experimental, com o propósito didático.")
 st.markdown("___")
 
 ###########################
@@ -67,6 +68,16 @@ with col1:
             1987,
             1988,
             1989,
+            1990,
+            1991,
+            1992,
+            1993,
+            1994,
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
             2000,
             2001,
             2002,
@@ -103,6 +114,16 @@ with col2:
             1987,
             1988,
             1989,
+            1990,
+            1991,
+            1992,
+            1993,
+            1994,
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
             2000,
             2001,
             2002,
@@ -125,7 +146,7 @@ with col2:
             2019,
             2020,
         ],
-        index=25,
+        index=35,
     )
 
 
